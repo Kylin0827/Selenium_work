@@ -1,0 +1,9 @@
+LoginPage:
+  username: ['id','username']
+
+  password: ['id','password']
+
+  login_btn: ['xpath','//*[@class="btn btn-success"]']
+
+CousrePage:
+  addCourseBtn: ['css selector','[ng-click="showAddOne=true"]']

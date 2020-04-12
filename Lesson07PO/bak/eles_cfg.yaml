@@ -1,0 +1,9 @@
+LoginPage:
+  user:
+    [id,'username']
+  passwd:
+    [id,'password']
+  login_btn:
+    [css selector,'.btn-success']
+
+CoursePage:

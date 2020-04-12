@@ -1,0 +1,24 @@
+LoginPage:
+  user:
+    ['id','username']
+  passwd:
+    ['id','password']
+  login_btn:
+    ['css selector','button[onclick="postLoginRequest()"]']
+CoursePage:
+  course_btn:
+    ['css selector',"a[ui-sref='course']"]
+  show_add_btn:
+    ['css selector','button[ng-click^=showAddOne]']
+  name_text:
+    ['css selector',"input[ng-model='addData.name']"]
+  desc_text:
+    ['css selector',"textarea[ng-model='addData.desc']"]
+  idx_text:
+    ['css selector',"input[ng-model='addData.display_idx']"]
+  add_btn:
+    ['css selector',"button[ng-click^=addOne]"]
+  del_btns:
+    ['css selector','[ng-click="delOne(one)"]']
+  confirm_btn:
+    ['css selector','.btn-primary']
